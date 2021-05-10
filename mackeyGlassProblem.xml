@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<Problem>
+  <MackeyGlass
+    ALeft="7.04"
+    ARight="7.04"
+    BLeft="10"
+    BRight="10"
+  />
+  <CrossingLocalization 
+    Precision="1e-15" 
+    MinimumPrecision ="1e-5" 
+    MaxNewtonIterations="20" 
+  />
+  <Printing 
+    Precision ="16" 
+    TimeStep="0.00390625"
+  />
+  <Peakaa
+    D1Left="0.07281093128178584"
+    D1Right="0.07281093128187838"
+    D2Left="1e-5"
+    D2Right="2e-5"
+    C0Left="0.3231664763348153"
+    C0Right="0.3231664763348245"
+  />
+  <Peak2
+    D1Left="0.06295116986841354"
+    D1Right="0.06295117108869652"
+    D2Left="0.05934824127265426"
+    D2Right="0.05934824208554668"
+    C0Left="0.3105572558978895"
+    C0Right="0.3105572559787425"
+  />
+  <Peak1
+    D1Left="0.07258814057701413" 
+    D1Right="0.07258814057770069" 
+    D2Left="0.00115661978420567" 
+    D2Right="0.001156619784667079" 
+    C0Left="0.3229156362696753" 
+    C0Right="0.3229156362697228" 
+  />
+  <Peak
+  D1Left="0.072811466"
+  D1Right="0.072811466"
+  D2Left="2e-5"
+  D2Right="2e-5"
+  C0Left="0.3"
+  C0Right="0.3"
+  />
+  <LComputation
+    L1Left="0.425"
+    L1Right="0.426"
+    L2Left="0.202"
+    L2Right="0.2026"
+    L11Left="0.216"
+    L11Right="0.2166"
+    BLeft="4.6674"
+    BRight="4.6675"
+  />
+  <Description 
+    IntegrationTime="21.5" 
+    InitalConditionIsOneSegment="true"
+    FComputation="false"
+    LComputation="false"
+  />
+  <Log
+    Output="mackeyGlass.log"
+    Debug="mackeyGlassDebug.log"
+    Trajectory="mackeyGlassTrajectory.log"
+    Endpoints="mackeyGlassEndPoints.log"
+    Enclosure="mackeyGlassEnclosure.log"
+  />
+</Problem>

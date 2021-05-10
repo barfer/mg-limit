@@ -1,0 +1,7 @@
+Rigorous integrator for the limiting Mackey Glass equation i.e. when n->\infty
+---
+author: Ferenc A. Bartha, University of Szeged, Bolyai Institute, barfer@math.u-szeged.hu
+---
+Packages:
+- CAPD
+- pugixml
